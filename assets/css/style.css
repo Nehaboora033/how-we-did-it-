@@ -1,0 +1,131 @@
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:ital,opsz,wght@0,9..40,100..1000;1,9..40,100..1000&family=Inconsolata:wght@200..900&display=swap');
+
+*{
+    padding:0;
+    margin:0;
+    list-style-type: none;
+    text-decoration: none;
+    box-sizing: border-box;
+
+}
+.container{
+    max-width: 1140px;
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 12px;
+    padding-right: 12px;
+
+}
+.row{
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    margin-left: -12px;
+    margin-right: -12px;
+}
+.col-8{
+    width:66.66;
+    padding-left: 12px;
+    padding-right: 12px;
+}
+.col-4{
+    width:33.33;
+    padding-left: 12px;
+    padding-right: 12px;
+    
+}
+
+
+.sub-heading-style{
+        font-family: "DM Sans", sans-serif;
+        font-weight: 700;
+        font-size: 14px;
+        line-height: 26px;
+        letter-spacing: 2px;
+        text-transform: uppercase;
+}
+.great-code{
+    display: flex;
+    flex-direction: row;
+}
+.pt-20{
+    padding-top: 25px;
+}
+.ml-18{
+    margin-left: 18px;
+}
+
+.content-style{
+        
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 26px;
+        color: rgba(21, 20, 57, 0.4);
+        width: 196px;
+        height: 104px;
+}
+.heading-style{
+    
+        font-family: "DM Sans", sans-serif;
+        font-style: normal;
+        font-size: 42px;
+        line-height: 52px;
+        color: #1E0E62;
+        margin-top: 80px;
+        margin-bottom: 41px;
+
+}
+.card{
+        width: 770px;
+       
+        top: 173px;
+        left: 214px;
+        border-radius: 10px;
+        opacity: 0.5;
+        background: #EBEAED;
+        padding: 30px 39px 50px 33px;
+
+            
+
+}
+
+.button-text{
+            font-family: "DM Sans", sans-serif;
+            font-weight: 500;
+            font-size: 16px;
+            line-height: 22px;
+            letter-spacing: 0px;
+            text-align: center;
+            vertical-align: middle;
+            color:#1E0E62;
+
+}
+button{
+        width: 80px;
+        height: 40px;
+        border-radius: 100px;
+        border-width: 2px;
+       border:2px solid #EBEAED ;
+       background-color: white;
+        display: flex;
+       align-items: center;
+       justify-content: center;
+       float:right;
+       
+    
+
+       margin-top: 20px;
+}
+button:hover{
+background-color: #EBEAED;
+}
+.content{
+    font-family: Inconsolata;
+        font-weight: 400;
+        font-size: 16px;
+        line-height: 22px;
+        letter-spacing: 0px;
+        color: #1E0E62;
+}
